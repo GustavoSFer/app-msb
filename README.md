@@ -3,7 +3,7 @@
 
   * Hospedado no heroku: https://msb-front.herokuapp.com/
 
-## TECNOLOGIAS UTILIZADOS
+## TECNOLOGIAS UTILIZADAS
 <ul>
   <li>React</li>
   <li>React-router-dom</li>
@@ -48,10 +48,10 @@
 ## Utilizando o projeto com o Docker
   * Obs: Cada repositório tem o seu Dockerfile. Entrar no Readme de cada um para seguir os passos.
 
-#### Observação: O Banco de dados Utilizado no projeto é o MySQL. Certifique-se que ja tenha em seu computador ou rodando em um container Docker.
+#### Observação: O Banco de dados Utilizado no projeto é o MySQL. Certifique-se que já tenha em seu computador ou rodando em um container Docker.
  -- Link: https://hub.docker.com/_/mysql
 
-## Configurando variavel de ambiente API
+## Configurando variável de ambiente API
   * Crie um arquivo .env e informe nele a URL do banco
   ``` REACT_APP_API_URL=https://.... ```
 <p>
@@ -59,7 +59,7 @@
 </p>
 
 **⚠️ IMPORTANTE! ⚠️**
-# Configurações necessarias para o Back-End
+# Configurações necessárias para o Back-End
 
 ### Conexão com o Banco:
 
@@ -82,4 +82,4 @@ MYSQL_PASSWORD=1234
 PORT=3001
 ```
 
-#### Projeto no back-end não tem um banco online, neste caso o banco MySQL é utilizado do computador do usuario.
+#### Projeto no back-end não tem um banco online, neste caso o banco MySQL é utilizado do computador do usuário.
