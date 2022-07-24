@@ -12,7 +12,6 @@
   <li>Axios</li>
   <li>Node.js</li>
   <li>Express</li>
-  <li>Dotenv</li>
   <li>MySql</li>
   <li>Mocha | Chai | Sinon.js </li>
 </ul>
