@@ -1,0 +1,6 @@
+[submodule "msb-front-end"]
+	path = msb-front-end
+	url = git@github.com:GustavoSFer/msb-front-end.git
+[submodule "msb-back-end"]
+	path = msb-back-end
+	url = git@github.com:GustavoSFer/msb-back-end.git

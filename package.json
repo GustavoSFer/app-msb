@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:back": "cd msb-back-end && npm start",
+    "start:front": "cd msb-front-end && npm start",
+    "start": "npm run start:back && npm run start:front",
+    "install:back": "cd msb-back-end && npm i",
+    "install:front": "cd msb-front-end && npm i",
+    "install": "npm run install:back && install:front"
   },
   "repository": {
     "type": "git",
@@ -16,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/GustavoSFer/app-msb/issues"
   },
-  "homepage": "https://github.com/GustavoSFer/app-msb#readme"
+  "homepage": "https://github.com/GustavoSFer/app-msb#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
