@@ -40,10 +40,16 @@
   * Inicialize o projeto:
     * `npm start`
 
+## Rodando os testes
+1. Teste Front-end
+  * npm run test:front
+2. Teste Back-end
+  * npm run test:back
+
 ## Utilizando o projeto com o Docker
   * Obs: Cada repositório tem o seu Dockerfile. Entrar no Readme de cada um para seguir os passos.
 
-## Observação: O Banco de dados Utilizado no projeto é o MySQL. Certifique-se que ja tenha em seu computador ou rodando em um container Docker.
+### Observação: O Banco de dados Utilizado no projeto é o MySQL. Certifique-se que ja tenha em seu computador ou rodando em um container Docker.
  -- Link: https://hub.docker.com/_/mysql
 
 ## Configurando variavel de ambiente API
